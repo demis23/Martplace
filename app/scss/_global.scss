@@ -18,12 +18,12 @@ a {
     display: inline-block;
     text-decoration: none;
 }
-// ul,
-// li {
-//     margin: 0;
-//     padding: 0;
-//     list-style: none;
-// }
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 .container {
     max-width: 1140px;
     margin: 0 auto;
@@ -41,11 +41,13 @@ a {
 //     }
 // }
 
-// a {
-//     display: inline-block;
-//     text-decoration: none;
-// }
-
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+button {
+    outline-style: none;
+}
 // .title {
 //     font-family: $bold;
 //     font-size: 36px;
