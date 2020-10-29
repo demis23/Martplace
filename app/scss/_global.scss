@@ -10,23 +10,25 @@ html {
 body {
     font-size: 14px;
     font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
 
 }
-// a {
+a {
 
-//     display: inline-block;
-// }
+    display: inline-block;
+    text-decoration: none;
+}
 // ul,
 // li {
 //     margin: 0;
 //     padding: 0;
 //     list-style: none;
 // }
-// .container {
-//     max-width: 1200px;
-//     margin: 0 auto;
-//     padding: 0 15px;
-// }
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 // .container-fluid{
 //     max-width: 100%;
 //     margin: 0 auto;
