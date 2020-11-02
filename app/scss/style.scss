@@ -103,10 +103,10 @@
             right: 0;
             padding: 13px 27px;
             outline-style: none;
-            cursor: pointer;
+
         }
 
-        
+
     }
 }
 
@@ -152,9 +152,10 @@
             border: 1px solid white;
             font-weight: 300;
             color: white;
-            cursor: pointer;
-            
+
+
         }
+
         button:focus {
             background-color: #fff;
             color: $blue;
@@ -175,5 +176,336 @@
 
 }
 
+//products end
+//functions start
+
+.functions {
+    min-height: 710px;
+}
+
+.function__inner {
+    position: relative;
+    text-align: center;
+
+    &-search {
+
+        top: 0;
+    }
+
+    &-form {
+        width: 100%;
+
+        input {
+            padding: 20px 250px 20px 12px;
+            border-radius: 6px;
+            border: 1px solid $bdr_grey;
+
+        }
+
+        button {
+            padding: 20px 70px;
+            border-radius: 6px;
+            background-color: $blue;
+            border: none;
+            margin-left: 33px;
+            color: white;
+        }
+
+    }
 
 
+
+
+}
+
+
+.search__bg {
+    width: 100%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.08);
+    position: absolute;
+    padding: 40px;
+    z-index: 3;
+    background-color: #fff;
+    border-radius: 6px;
+    min-height: 135px;
+
+}
+
+.one {
+    opacity: 50%;
+    top: -13px;
+    width: calc(100% - 30px);
+    z-index: 2;
+
+}
+
+.two {
+    opacity: 50%;
+    top: -26px;
+    z-index: 1;
+    width: calc(100% - 60px);
+}
+
+.function__inner-box {
+    padding-top: 185px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+
+}
+
+.box-item {
+    width: 32%;
+    padding: 45px 32px;
+
+    img {
+        margin-bottom: 35px;
+    }
+}
+
+.box-item:hover {
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.08);
+}
+
+.function__inner-title {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.function__inner-text {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
+
+
+//new release
+
+
+
+.release {
+    background-color: #f6f7fb;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+}
+
+.release__inner {
+
+    &-title {
+        font-size: 30px;
+        line-height: 28px;
+        font-weight: 300;
+        background-color: #fff;
+        padding: 42px 42px 42px 30px;
+        border-radius: 4px;
+        box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
+        margin-bottom: 30px;
+    }
+
+    &-menu {
+        background-color: #fff;
+        padding: 30px 20px;
+        margin-bottom: 50px;
+        border-radius: 4px;
+
+        button {
+            font-size: 15px;
+            border-radius: 16px;
+            padding: 7px 15px;
+            margin-left: 10px;
+            background-color: #f1f3f6;
+            border: none;
+        }
+    }
+}
+
+
+.release__inner__item {
+    width: 361px;
+    background-color: #fff;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
+    margin-bottom: 20px;
+
+    &-btn {
+        border-radius: 4px;
+        height: 230px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a {
+
+            overflow: hidden;
+        }
+
+    }
+
+    img {
+        border-radius: 4px 4px 0 0;
+    }
+
+    &-btn:hover {
+        background-image: -moz-linear-gradient(180deg, rgb(6, 116, 236) 0%, rgb(61, 94, 215) 46%, rgb(115, 71, 193) 100%);
+        background-image: -webkit-linear-gradient(180deg, rgb(6, 116, 236) 0%, rgb(61, 94, 215) 46%, rgb(115, 71, 193) 100%);
+        background-image: (180deg, rgb(6, 116, 236) 0%, rgb(61, 94, 215) 46%, rgb(115, 71, 193) 100%);
+
+        a {
+            display: visible;
+            overflow: auto;
+            background-color: transparent;
+            border: 1px solid white;
+            margin: 0 5px;
+            padding: 16px 30px;
+            border-radius: 22px;
+            color: white;
+        }
+
+        a:hover {
+            background-color: #fff;
+            color: $blue;
+            box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+        }
+
+        img {
+            display: none;
+            overflow: hidden;
+        }
+    }
+
+    &-title {
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 30px;
+
+    }
+
+    &-content {
+
+
+        >div {
+            margin: 0px 30px;
+        }
+    }
+
+    &-text {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 25px;
+        padding: 35px 0px;
+
+
+    }
+
+    &-user {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+
+    }
+
+    &-user-icon {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+
+    &-user-nick {
+        margin-right: auto;
+        font-size: 15px;
+        line-height: 30px;
+        color: #000;
+        margin-left: 8px;
+    }
+
+    &-user-teg {
+        margin-left: auto;
+        margin-right: 10px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 20px;
+        width: 20px;
+
+    }
+
+    &-user-group {
+        color: $viol;
+        font-size: 15px;
+        line-height: 30px;
+
+
+    }
+
+    &-bottom.item-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid #ececec;
+        margin: 0;
+        padding: 15px 30px;
+
+    }
+
+    &-fav {
+        margin-left: 15px;
+        margin-right: auto;
+        color: #6f7d8d;
+        font-size: 15px;
+        line-height: 30px;
+
+    }
+
+    &-price {
+        background-color: #e6f1fd;
+        padding: 7px 17px;
+        border-radius: 15px;
+        color: $blue;
+        font-size: 15px;
+
+    }
+
+    &-cart {
+        color: $blue;
+        font-size: 15px;
+        line-height: 30px;
+
+    }
+
+}
+
+.release__inner-box {
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.mixitup-control-active {
+
+    background-color: $blue !important;
+    color: white;
+}
+
+.release__inner__bottom-btn {
+    display: flex;
+    justify-content:  center;
+    margin-top: 40px;
+    button {
+        padding: 20px 30px;
+        font-size: 16px;
+        border-radius: 27px;        
+        margin-left: 10px;
+        background-color: #f1f3f6;
+        border: none;
+
+    }
+}

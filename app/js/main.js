@@ -1,6 +1,6 @@
 $(function(){
 
-    var mixer = mixitup('.products__inner-box');
+    var mixer = mixitup('.release__inner-box');
     
 
 });
